@@ -49,7 +49,7 @@ class ViewController: UIViewController{
             let pianoMusicUrl = Bundle.main.url(forResource: "pianoMusic", withExtension: "mp4")!
             let playerItem = AVPlayerItem(url: pianoMusicUrl)
             player.replaceCurrentItem(with: playerItem)
-            player.volume = 0.3
+            player.volume = 0.1
             player.play()
     }
 
